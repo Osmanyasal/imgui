@@ -29,4 +29,7 @@ g++ ${LIB_IMGUI} -o ./build/imgui_tables.o -c imgui_tables.cpp
 g++ ${LIB_IMGUI} -o ./build/imgui_widgets.o -c imgui_widgets.cpp
 g++ ${LIB_IMGUI} -o ./build/imgui.o -c imgui.cpp
 
+g++ ${LIB_IMGUI} -o ./build/imgui_impl_opengl3.o -c ./backends/imgui_impl_opengl3.cpp
+g++ ${LIB_IMGUI} -o ./build/imgui_impl_glfw.o -c ./backends/imgui_impl_glfw.cpp
+
 echo "${CIMGUI} compilation is done!"
