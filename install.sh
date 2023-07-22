@@ -17,7 +17,7 @@ if [ $# -gt 0 ]; then
     fi
 fi
 
-
+git checkout docking
 mkdir -p build
 echo "${CIMGUI} build folder created"
 
