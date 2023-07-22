@@ -17,6 +17,7 @@ if [ $# -gt 0 ]; then
     fi
 fi
 
+
 mkdir -p build
 echo "${CIMGUI} build folder created"
 
