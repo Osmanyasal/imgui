@@ -32,4 +32,7 @@ g++  -o ./build/imgui.o -c imgui.cpp ${LIB_IMGUI}
 g++  -o ./build/imgui_impl_opengl3.o -c ./backends/imgui_impl_opengl3.cpp ${LIB_IMGUI}
 g++  -o ./build/imgui_impl_glfw.o -c ./backends/imgui_impl_glfw.cpp ${LIB_IMGUI}
 
+## install headers
+sudo find ./ -type f -name "*.h*" -exec cp {} "/usr/local/include/" \;
+
 echo "${CIMGUI} compilation is done!"
